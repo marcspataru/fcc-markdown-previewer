@@ -1,0 +1,12 @@
+.preview {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+}
+.preview :global img {
+  max-width: 600px;
+}
